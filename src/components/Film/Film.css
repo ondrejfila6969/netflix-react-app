@@ -1,0 +1,30 @@
+#film-wrapper {
+    background-color: rgb(29, 27, 27);
+    width: 300px;
+    color: white;
+    height: 500px;
+    margin-left: 65px;
+    border: 2px solid white;
+    display: inline-block;
+}
+
+#film-wrapper h2, #film-wrapper p, #film-wrapper h3 {
+    padding-left: 5px;
+    padding-right: 3px;
+}
+
+#film-wrapper p {
+    font-size: 13px;
+}
+
+#film-wrapper h2 {
+    font-size: 17px;
+}
+
+#film-wrapper h3 {
+    font-size: 15px;
+}
+
+#film-wrapper:hover {
+    transform: scale(1.04);
+}
